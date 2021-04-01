@@ -93,7 +93,7 @@ class Game extends Component {
   }
 
   render() {
-    const { isRolling, dice, locked, toggleLocked, rollsLeft, scores } = this.state
+    const { isRolling, dice, locked, rollsLeft, scores } = this.state
     return (
       <div className="Game">
         <header className="Game-header">
